@@ -1,3 +1,7 @@
+<?php
+	session_start();
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,7 +22,7 @@
 				</ul>
 				<div class="navbar-login">
 
-					<form>
+					<form action="includes/login.inc.php" method="POST">
 						<input type="text" name="uid" placeholder="Nom d'utilisateur">
 						<input type="password" name="password" placeholder="Mots de passe">
 						<button type="submit" name="submit">Connexion</button>

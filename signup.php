@@ -10,7 +10,7 @@
 
 			<h2>Inscription</h2>
 
-			<form class="signup-form" action="include/signup.inc.php" method="POST">
+			<form class="signup-form" action="includes/signup.inc.php" method="POST">
 				<input type="text" name="first" placeholder="Prénom">
 				<input type="text" name="last" placeholder="Nom de famille">
 				<input type="text" name="email" placeholder="E-mail">

@@ -8,8 +8,12 @@
 
 		<div class="main-wrapper">
 
-			<h2>Acceuil</h2>
-
+			<h2>Accueil</h2>
+			<?php
+				if (isset($_SESSION['u_id'])) {
+					echo "Vous êtes connecté";
+				}
+			?>
 		</div>
 
 	</section>
